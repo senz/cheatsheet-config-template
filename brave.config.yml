@@ -1,0 +1,54 @@
+# Shortcuts for Brave browser
+# brave://extensions/shortcuts
+# See help article https://support.brave.com/hc/en-us/articles/360032272171-What-keyboard-shortcuts-can-I-use-in-Brave
+# Including extensions:
+# - Dark reader
+# - LibRedirect
+# - Bitwarden
+
+title: Brave Shortcuts
+shortcuts:
+  darwin:
+    # LibRedirect
+    Alt+Shift+L: Switch to the next instance
+    Alt+Shift+O: Redirect to the original link
+    Alt+Shift+C: Copy the original link
+    # Bitwarden
+    Cmd+Shift+Y: Open Bitwarden Extension
+    Cmd+Shift+L: Auto-fill the last used login for the current website.
+    Cmd+Shift+9: Generate and copy a new random password to the clipboard.
+    # Dark reader
+    Alt+Shift+D: Toggle Dark Reader
+    Alt+Shift+A: Toggle Dark Reader on current site
+    # Brave
+    Cmd+R: Reload
+    Cmd+Shift+R: Reload without cache
+    Cmd+T: Open a new tab
+    Cmd+W: Close the current tab
+    Cmd+Shift+W: Close the current window
+    Cmd+N: Open a new window
+    Cmd+Shift+N: Open a new incognito window
+    Cmd+L: Focus the address bar
+    Ctrl+Tab: Switch to the next tab
+    Ctrl+Shift+Tab: Switch to the previous tab
+    Cmd+Shift+T: Reopen the last closed tab
+    Cmd+Q: Quit Brave
+    Ctrl+Cmd+N: Name Window...
+    Cmd+D: Bookmark this page
+    Cmd+Alt+U: Show page source
+    Esc: Close find or stop
+    Cmd+Ctrl+Enter: Quick Commands (Brave command palette)
+    Cmd+.: Stop
+    Cmd+Shift+A: Tab search (brave native, includes recently closed tabs)
+    Cmd+Alt+I: Open developer tools
+    Cmd+Alt+J: Open developer tools and bring focus to the console
+    Cmd+Y: Show history page
+    Cmd+Shift+J: Open downloads
+    Cmd+Shift+Backspace: Clear browsing data
+    Cmd+1: Go to the first tab
+    Cmd+2: Go to the second tab
+    Cmd+3: Go to the third tab
+    Cmd+4: Go to the fourth tab
+    Cmd+5: Go to the fifth tab
+    Cmd+Plus: Zoom in
+    Cmd+0: Reset zoom level

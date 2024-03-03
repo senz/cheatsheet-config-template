@@ -1,0 +1,16 @@
+name: Generate cheatsheet for user config
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'cheatsheet-build.yaml'
+
+permissions: read-all
+jobs:
+  build:
+    uses: senz/cheatsheet-generator/.github/workflows/build-user-config.yml@master
+    with:
+      config_path: .

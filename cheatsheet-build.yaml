@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://github.com/senz/cheatsheet-generator/raw/master/build-schema.json
+---
+include:
+  - config: brave.config.yml
+    config-name: Brave browser config
+    artifact-name: brave-cheatsheet
